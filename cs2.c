@@ -311,6 +311,7 @@ int main()
 
 		/****"exp1 ? exp2 : exp3"****/
 
+/***
 int main()
 {
 	int a = 1;
@@ -320,11 +321,23 @@ int main()
 	
 	return 0;
 }
+***/
 
 
+		/****"&&"和"||"****/
+
+int main()
+{
+	int a = 10;
+	int b = 0;
+	int c = a&&b;//有一个为0则为0，逻辑与
+	int d = a||b;//有一个非0则为1，逻辑或
+
+	printf("%d\n%d", c, d);
 
 
-
+	return 0;
+}
 
 
 
